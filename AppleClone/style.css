@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    height: 44px;
+    width: 100%;
+    background-color: #14151a;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 10;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+
+}
+li{
+    padding: 0 21px;
+    color: #d0d0d1;
+    list-style: none;
+    font-size: 12px;
+    font-weight: 40;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+li:active{
+    color: #b3b3b3;
+}
+.icon{
+    color: antiquewhite;
+    width: 30px;
+}
+.apple{
+    height: 25px;
+    width: 20px;
+}
+.bag{
+    height: 23px;
+    width: 18px;
+}
+
+.search{
+    height: 22px;
+    width: 18px;
+}
+
+.hero{
+    background-color: #0f1428;
+    width: 100%;
+    height: 86vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 15px solid white;
+}
+.herobox{
+    margin-top: 120px;
+    height: 200px;
+    width: 600px;
+    text-align: center;
+    color: #f0e3ca;
+}
+.herobox h1{
+    font-size: 56px;
+    font-weight: 600;
+    letter-spacing: 0.005em;
+    line-height: 1.07143;
+    padding-bottom: 12px;
+}
+
+.herobox h3{
+
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0.004em;
+    line-height: 35px;
+    margin-top: 6px;
+    margin-bottom: 35px;
+}
+.shop{
+    font-size: 20px;
+    text-decoration: none;
+    color: #f0e3ca;
+    height: 30px;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1.5px solid #d68941;
+    padding: 5px 15px;
+    margin-top: 10px;
+    transition: all 0.1s linear;
+}
+.shop:hover{
+    color: #0f1428;
+    background-color: #d68941;
+    font-weight: 500;
+}
+.hero2{
+    background-color: black;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    flex-direction: column;
+    border-bottom: 15px solid white;
+}
+
+.hero2 img{
+    width: 65%;
+    margin-left: auto;
+    margin-right: 80px;
+    margin-bottom: 80px;
+
+}
+.texts{
+    margin-bottom: auto;
+    margin-top: auto;
+    text-align: center;
+}
+.texts h1{
+    font-size: 56px;
+    font-weight: 600;
+    color: white;
+}
+.texts h3{  
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0.004em;
+    line-height: 10px;
+    margin-top: 6px;
+    margin-bottom: 35px;
+    color: white;
+}
+.texts a{
+    margin-right: 20px;
+    margin-left: 10px;
+    color: #2384df;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 120px;
+    line-height: 10px;
+}
+.hero3{
+    background-color: #f5f5f7;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:flex-end;
+    flex-direction: column;
+    border-bottom: 15px solid white;
+}
+.hero3 img{
+    width: 100%;
+    margin-top: auto;
+}
+.text1{
+    margin-bottom: auto;
+    margin-top: auto;
+    text-align: center;
+}
+.text1 h1{
+    font-size: 56px;
+    font-weight: 600;
+    color: black;
+}
+.text1 h3{
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0.004em;
+    line-height: 10px;
+    margin-top: 6px;
+    margin-bottom: 35px;
+    color: black;
+}
+
+.text1 a{
+    margin-right: 20px;
+    margin-left: 10px;
+    color: #2384df;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 120px;
+    line-height: 10px;
+}
+
+.hero4{
+    background-color: rgb(211, 6, 6);
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.hero4 .lap{
+    height: 75vh;
+    width: 50vw;
+    background-color: #ffffff;
+    border-right: 7.5px solid white;
+}
+.hero4 .watch{
+    height: 75vh;
+    width: 50vw;
+    background-color: #000000;
+    border-bottom: 15px solid white ;
+    border-left: 7.5px solid white ;
+    margin-bottom: 5px;
+}
+.watch img{
+    margin-top: 205px;
+}
